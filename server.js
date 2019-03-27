@@ -4,6 +4,7 @@ const port=process.env.PORT || 3000
 
 const server = http.createServer((req,res) => {
 	var baseURL = 'http://' + req.headers.host + '/';
+	console.log(baseURL);
 	const current_url = new URL(req.url,baseURL);
 	const search_params = current_url.searchParams;
 	const isbn = search_params.get('isbn');
