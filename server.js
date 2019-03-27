@@ -27,6 +27,12 @@ const server = http.createServer((req,res) => {
 			res.end(JSON.stringify(value));
 		});
 	}
+	
+	else {
+		consol.log('failed');
+		res.setHeader('Content-Type', 'text/html');
+		res.end('<h1>Failed</h1>');
+	}
 });
 
 server.listen(port);
