@@ -8,6 +8,7 @@ const defaultOptions = {
 }
 
 module.exports = (asin,pageNum, opt) => {
+	console.log("injam");
 	return new Promise((resolve, reject) => {
 		opt = Object.assign({}, defaultOptions, opt)
 		opt.page = opt.page.replace('{{asin}}',asin)
