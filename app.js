@@ -8,11 +8,11 @@ const defaultOptions = {
 }
 
 module.exports = (asin,pageNum, opt) => {
-	console.log('Running test...')
 	return new Promise((resolve, reject) => {
 		opt = Object.assign({}, defaultOptions, opt)
 		opt.page = opt.page.replace('{{asin}}',asin)
 		opt.page = opt.page.replace('{{pageNum}}',pageNum)
+					console.log('inja')
 		new Nightmare({
 				//show: true, openDevTools: { mode: 'detach' }
 			})
