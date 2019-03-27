@@ -6,4 +6,4 @@ in cmd : node server.js
 
 start in port 3000 by default;
 
-get request example : http://localhost:3000?isbn=0143124544&page=3
+get request example : http://localhost:3000/api?isbn=0143124544&page=3
