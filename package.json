@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mabahmani/Retrieve-Amazon-Reviews/issues"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "homepage": "https://github.com/mabahmani/Retrieve-Amazon-Reviews#readme"
 }
