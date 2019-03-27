@@ -37,6 +37,5 @@ const server = http.createServer((req,res) => {
 });
 
 server.listen(port);
-server.timeout = 120000'
 
 console.log('listening on port' + port);
