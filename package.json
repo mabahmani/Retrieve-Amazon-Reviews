@@ -1,0 +1,24 @@
+{
+  "name": "retrieve-amazon-reviews",
+  "version": "1.0.0",
+  "description": "scrap amazon product reviews",
+  "main": "app.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabahmani/Retrieve-Amazon-Reviews.git"
+  },
+  "keywords": [
+    "amazon",
+    "reviews"
+  ],
+  "author": "mab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mabahmani/Retrieve-Amazon-Reviews/issues"
+  },
+  "homepage": "https://github.com/mabahmani/Retrieve-Amazon-Reviews#readme"
+}
