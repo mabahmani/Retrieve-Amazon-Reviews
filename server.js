@@ -29,7 +29,7 @@ const server = http.createServer((req,res) => {
 	}
 	
 	else {
-		consol.log('failed');
+		console.log('failed');
 		res.setHeader('Content-Type', 'text/html');
 		res.end('<h1>Failed</h1>');
 	}
