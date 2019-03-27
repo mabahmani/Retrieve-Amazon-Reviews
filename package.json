@@ -20,6 +20,11 @@
   "bugs": {
     "url": "https://github.com/mabahmani/Retrieve-Amazon-Reviews/issues"
   },
+  "dependencies": {
+    "amazon-reviews-crawler-eval": "escaladesports/amazon-reviews-crawler-eval#v0.1.3",
+    "nightmare": "^2.10.0",
+    "random-ua": "0.0.6"
+  },
   "engines": {
     "node": "10.x"
   },
