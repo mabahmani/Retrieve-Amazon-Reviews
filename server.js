@@ -12,7 +12,7 @@ const server = http.createServer((req,res) => {
 	if (pageNum === null){
 		pageNum = '1'
 	}
-	console.log(isbn + pageNum);
+	console.log(isbn + pageNum)
 
 	if(req.url.startsWith('/api')){
 		console.log('Running test...')
