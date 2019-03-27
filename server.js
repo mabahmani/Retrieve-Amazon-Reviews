@@ -17,7 +17,7 @@ const server = http.createServer((req,res) => {
 
 	if(req.url.startsWith('/api')){
 		console.log('Running test...')
-		const reviewsCrawler = require('./app.js')
+		const reviewsCrawler = require('./app/app.js')
 		console.log = ('after review crawler')
 		reviews = reviewsCrawler(isbn,pageNum)
 		//.then(console.log)
